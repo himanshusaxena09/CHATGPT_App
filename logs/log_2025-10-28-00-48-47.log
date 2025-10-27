@@ -1,0 +1,97 @@
+[2025-10-28 00:48:47,767] logger - INFO - Flask application starting...
+[2025-10-28 00:48:47,786] werkzeug - WARNING -  * Debugger is active!
+[2025-10-28 00:48:47,792] werkzeug - INFO -  * Debugger PIN: 211-603-832
+[2025-10-28 00:48:52,052] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:48:52] "GET / HTTP/1.1" 200 -
+[2025-10-28 00:48:52,084] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:48:52] "[33mGET /static/css/chat.css HTTP/1.1[0m" 404 -
+[2025-10-28 00:48:52,087] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:48:52] "[33mGET /static/images/Apexiq-logo-whitebg.jpeg HTTP/1.1[0m" 404 -
+[2025-10-28 00:48:58,605] logger - INFO - Sending messages to Groq API...
+[2025-10-28 00:48:59,230] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 00:48:59,361] logger - INFO - Received response from Groq API.
+[2025-10-28 00:48:59,365] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:48:59] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 00:49:23,672] logger - INFO - Sending messages to Groq API...
+[2025-10-28 00:49:23,887] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 00:49:23,889] logger - INFO - Received response from Groq API.
+[2025-10-28 00:49:23,890] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:49:23] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 00:49:47,900] logger - INFO - Sending messages to Groq API...
+[2025-10-28 00:49:48,058] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 00:49:48,060] logger - INFO - Received response from Groq API.
+[2025-10-28 00:49:48,061] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:49:48] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 00:50:07,906] logger - INFO - Sending messages to Groq API...
+[2025-10-28 00:50:08,124] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 00:50:08,126] logger - INFO - Received response from Groq API.
+[2025-10-28 00:50:08,127] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:50:08] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 00:50:30,221] logger - INFO - Sending messages to Groq API...
+[2025-10-28 00:50:30,448] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 00:50:30,452] logger - INFO - Received response from Groq API.
+[2025-10-28 00:50:30,454] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:50:30] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 00:55:58,371] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:55:58] "GET / HTTP/1.1" 200 -
+[2025-10-28 00:55:58,411] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:55:58] "[33mGET /static/images/Apexiq-logo-whitebg.jpeg HTTP/1.1[0m" 404 -
+[2025-10-28 00:55:58,569] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:55:58] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-10-28 00:56:11,076] logger - INFO - Sending messages to Groq API...
+[2025-10-28 00:56:11,256] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 00:56:11,258] logger - INFO - Received response from Groq API.
+[2025-10-28 00:56:11,259] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:56:11] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 00:56:26,073] logger - INFO - Sending messages to Groq API...
+[2025-10-28 00:56:26,294] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 00:56:26,296] logger - INFO - Received response from Groq API.
+[2025-10-28 00:56:26,297] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:56:26] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 01:01:41,170] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:01:41] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:01:41,199] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:01:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:01:41,202] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:01:41] "[33mGET /static/images\\pw-logo-w-bg.jpg HTTP/1.1[0m" 404 -
+[2025-10-28 01:01:43,125] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:01:43] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:01:43,161] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:01:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:01:43,163] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:01:43] "[33mGET /static/images\\pw-logo-w-bg.jpg HTTP/1.1[0m" 404 -
+[2025-10-28 01:02:09,943] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:09] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:02:09,998] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:09] "[33mGET /static/app\\static\\images\\pw-logo-w-bg.jpg HTTP/1.1[0m" 404 -
+[2025-10-28 01:02:10,004] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:02:10,903] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:10] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:02:10,947] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:02:10,949] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:10] "[33mGET /static/app\\static\\images\\pw-logo-w-bg.jpg HTTP/1.1[0m" 404 -
+[2025-10-28 01:02:19,887] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:19] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:02:19,916] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:02:19,918] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:19] "[33mGET /static/app\\static\\images\\pw-logo-w-bg.jpg HTTP/1.1[0m" 404 -
+[2025-10-28 01:02:39,865] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:39] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:02:39,889] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:02:39,891] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:39] "[33mGET /static/D:\\DS_Himanshu_Files\\DATA%20SCIENCE\\Jupyter_Notebook\\Custom-Chatgpt-Project-main\\Custom-Chatgpt-Project-main%07pp\\static\\images\\pw-logo-w-bg.jpg HTTP/1.1[0m" 404 -
+[2025-10-28 01:02:40,672] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:40] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:02:40,708] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:02:40,709] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:02:40] "[33mGET /static/D:\\DS_Himanshu_Files\\DATA%20SCIENCE\\Jupyter_Notebook\\Custom-Chatgpt-Project-main\\Custom-Chatgpt-Project-main%07pp\\static\\images\\pw-logo-w-bg.jpg HTTP/1.1[0m" 404 -
+[2025-10-28 01:07:44,106] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:07:44] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:07:44,151] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:07:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:07:44,157] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:07:44] "[33mGET /static/D:\\DS_Himanshu_Files\\DATA%20SCIENCE\\Jupyter_Notebook\\Custom-Chatgpt-Project-main\\Custom-Chatgpt-Project-main%07pp\\static\\images HTTP/1.1[0m" 404 -
+[2025-10-28 01:11:28,373] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:11:28] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:11:28,405] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:11:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:11:28,510] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:11:28] "GET /static/images/pw-logo-w-bg.jpg HTTP/1.1" 200 -
+[2025-10-28 01:14:38,544] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:14:38] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:14:38,572] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:14:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:14:38,669] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:14:38] "GET /static/images/logo.webp HTTP/1.1" 200 -
+[2025-10-28 01:16:31,241] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:16:31] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:16:31,279] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:16:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:16:31,365] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:16:31] "GET /static/images/logo1.jpg HTTP/1.1" 200 -
+[2025-10-28 01:16:39,432] logger - INFO - Sending messages to Groq API...
+[2025-10-28 01:16:39,595] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 01:16:39,597] logger - INFO - Received response from Groq API.
+[2025-10-28 01:16:39,598] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:16:39] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 01:16:51,074] logger - INFO - Sending messages to Groq API...
+[2025-10-28 01:16:51,218] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 01:16:51,220] logger - INFO - Received response from Groq API.
+[2025-10-28 01:16:51,221] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:16:51] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 01:17:12,364] logger - INFO - Sending messages to Groq API...
+[2025-10-28 01:17:12,520] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 01:17:12,522] logger - INFO - Received response from Groq API.
+[2025-10-28 01:17:12,523] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:17:12] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 01:17:35,317] logger - INFO - Sending messages to Groq API...
+[2025-10-28 01:17:35,560] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 01:17:35,562] logger - INFO - Received response from Groq API.
+[2025-10-28 01:17:35,563] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:17:35] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 01:18:49,386] logger - INFO - Sending messages to Groq API...
+[2025-10-28 01:18:49,595] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 01:18:49,597] logger - INFO - Received response from Groq API.
+[2025-10-28 01:18:49,598] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:18:49] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 01:19:19,070] logger - INFO - Sending messages to Groq API...
+[2025-10-28 01:19:19,217] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-10-28 01:19:19,219] logger - INFO - Received response from Groq API.
+[2025-10-28 01:19:19,220] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:19:19] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-28 01:20:59,283] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:20:59] "GET / HTTP/1.1" 200 -
+[2025-10-28 01:20:59,319] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:20:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-10-28 01:20:59,325] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 01:20:59] "[36mGET /static/images/logo1.jpg HTTP/1.1[0m" 304 -

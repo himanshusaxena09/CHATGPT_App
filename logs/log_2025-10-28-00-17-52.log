@@ -1,0 +1,19 @@
+[2025-10-28 00:17:53,003] logger - INFO - Flask application starting...
+[2025-10-28 00:17:53,034] werkzeug - WARNING -  * Debugger is active!
+[2025-10-28 00:17:53,044] werkzeug - INFO -  * Debugger PIN: 211-603-832
+[2025-10-28 00:18:06,922] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:06] "GET / HTTP/1.1" 200 -
+[2025-10-28 00:18:06,956] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:06] "[33mGET /static/css/chat.css HTTP/1.1[0m" 404 -
+[2025-10-28 00:18:06,960] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:06] "[33mGET /static/images/Apexiq-logo-whitebg.jpeg HTTP/1.1[0m" 404 -
+[2025-10-28 00:18:55,064] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:55] "GET / HTTP/1.1" 200 -
+[2025-10-28 00:18:55,095] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:55] "[33mGET /static/css/chat.css HTTP/1.1[0m" 404 -
+[2025-10-28 00:18:55,096] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:55] "[33mGET /static/images/Apexiq-logo-whitebg.jpeg HTTP/1.1[0m" 404 -
+[2025-10-28 00:18:55,943] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:55] "GET / HTTP/1.1" 200 -
+[2025-10-28 00:18:56,074] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:56] "[33mGET /static/css/chat.css HTTP/1.1[0m" 404 -
+[2025-10-28 00:18:56,078] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:56] "[33mGET /static/images/Apexiq-logo-whitebg.jpeg HTTP/1.1[0m" 404 -
+[2025-10-28 00:18:57,124] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:57] "GET / HTTP/1.1" 200 -
+[2025-10-28 00:18:57,154] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:57] "[33mGET /static/css/chat.css HTTP/1.1[0m" 404 -
+[2025-10-28 00:18:57,166] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:18:57] "[33mGET /static/images/Apexiq-logo-whitebg.jpeg HTTP/1.1[0m" 404 -
+[2025-10-28 00:19:04,258] logger - INFO - Sending messages to Groq API...
+[2025-10-28 00:19:04,887] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-10-28 00:19:04,888] logger - ERROR - Error communicating with Groq API: Error code: 400 - {'error': {'message': 'The model `mistral-saba-24b` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+[2025-10-28 00:19:04,891] werkzeug - INFO - 127.0.0.1 - - [28/Oct/2025 00:19:04] "POST /api/chat HTTP/1.1" 200 -
