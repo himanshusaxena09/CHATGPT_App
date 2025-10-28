@@ -1,3 +1,17 @@
+# import os
+# from app import create_app
+
+# print("Current working directory:", os.getcwd())  # Print current working directory
+
+# Create an instance of the Flask application
+# app = create_app()
+
+# if __name__ == '__main__':
+    # Run the Flask application on all available IPs and specify the port
+    # print("Flask app is running on http://127.0.0.1:5000/")
+    # app.run(host='127.0.0.1', port=5000, debug=True)  # Use 127.0.0.1 for local access
+
+
 import os
 from app import create_app
 
@@ -7,6 +21,9 @@ print("Current working directory:", os.getcwd())  # Print current working direct
 app = create_app()
 
 if __name__ == '__main__':
-    # Run the Flask application on all available IPs and specify the port
-    print("Flask app is running on http://127.0.0.1:5000/")
-    app.run(host='127.0.0.1', port=5000, debug=True)  # Use 127.0.0.1 for local access
+    # Render provides PORT as an environment variable, default to 5000 locally
+    port = int(os.environ.get("PORT", 5000))
+    host = os.environ.get("HOST", "0.0.0.0")  # Must be 0.0.0.0 for Render
+    
+    print(f"🚀 Flask app running on http://{host}:{port}/")
+    app.run(host=host, port=port, debug=True)
